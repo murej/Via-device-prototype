@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GTM.Seeed.Accelerometer</name>
+    </assembly>
+    <members>
+        <member name="T:Gadgeteer.Modules.Seeed.Accelerometer">
+            <summary>
+            An Accelerometer Gadgeteer module, based on the Freescale Semiconductor MMA7455L Three Axis Accelerometer IC.
+            </summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.#ctor(System.Int32)">
+            <summary></summary>
+            <param name="socketNumber">The socket that this module is plugged in to.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.RequestMeasurement">
+            <summary>
+            Obtains a single reading from the <see cref="T:Gadgeteer.Modules.Seeed.Accelerometer"/> and raises the <see cref="E:Gadgeteer.Modules.Seeed.Accelerometer.MeasurementComplete"/> event when complete.
+            </summary>
+            <returns>This method returns the current acceleration, in g's (gravity units).</returns>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.Calibrate(Gadgeteer.Modules.Seeed.Accelerometer.Acceleration)">
+            <summary>
+            Calibrates the accelerometer.
+            </summary>
+            <param name="referenceAcceleration">An acceleration representing the resting orientation of the accelerometer.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.Calibrate">
+            <summary>
+            Calibrates the accelerometer. Make sure that the accelerometer is not moving and is resting on a flat surface when calling this method. Use the overload method to specify an
+            arbitrary orientation to calibrate.
+            </summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.SaveCalibration">
+            <summary>
+            Saves the calibration values to non-volatile memory.
+            </summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.LoadCalibration">
+            <summary>
+            Loads previously saved calibration settings.
+            </summary>
+            <returns>True if previously saved settinsg were found. False otherwise.</returns>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.EnableThresholdDetection(System.Double,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Enables automatic detection and notification when an acceleration threshold is exceeded. This results in the <see cref="E:Gadgeteer.Modules.Seeed.Accelerometer.ThresholdExceeded"/> event being raised. Continous measurement is disabled when threshold detection mode is enabled.
+            </summary>
+            <param name="threshold">Acceleration threshold, between -8.0 and 8.0 G.</param>
+            <param name="enableX">Enable threshold detection in the X axis.</param>
+            <param name="enableY">Enable threshold detection in the Y axis.</param>
+            <param name="enableZ">Enable threshold detection in the Z axis.</param>
+            <param name="absolute">Absoulte threshold detection. If set to true the sign of the threshold is ignored, and the absolute value of the acceleration is compared with the absolute value of the threshold. If set to false, the sign of the threshold will be taken into account, the event will only be raised if the acceleration falls below a negative threshold or above a positive threshold.</param>
+            <param name="detectFreefall">Freefall detection. If set to true, the <see cref="E:Gadgeteer.Modules.Seeed.Accelerometer.ThresholdExceeded"/> event will be raised when the acceleration in all the enabled axes is less than the absolute threshold. In order to detect freefall correctly, set the threshold to a small value and enable detection on all axes.</param>
+            <param name="autoReset">Automatically reset the thershold detection. If set to false, the <see cref="E:Gadgeteer.Modules.Seeed.Accelerometer.ThresholdExceeded"/> will be raised only once, until the <see cref="M:Gadgeteer.Modules.Seeed.Accelerometer.ResetThresholdDetection"/> method is called manually. If set to true, the <see cref="M:Gadgeteer.Modules.Seeed.Accelerometer.ResetThresholdDetection"/> will be called automatically, and the event will be continously raised as long as the thershold conditions are exceeded.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.ResetThresholdDetection">
+            <summary>
+            Reset the threshold detection process, configured by the <see cref="M:Gadgeteer.Modules.Seeed.Accelerometer.EnableThresholdDetection(System.Double,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)"/> method.
+            </summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.StartContinuousMeasurements">
+            <summary>
+            Starts continuous measurements.
+            </summary>
+            <remarks>
+            When this method is called, <see cref="T:Gadgeteer.Modules.Seeed.Accelerometer"/> begins taking continuous measurements.
+            At each <see cref="P:Gadgeteer.Modules.Seeed.Accelerometer.ContinuousMeasurementInterval"/>, it calls the <see cref="M:Gadgeteer.Modules.Seeed.Accelerometer.RequestMeasurement"/> method,
+            which raises the <see cref="E:Gadgeteer.Modules.Seeed.Accelerometer.MeasurementComplete"/> event.
+            </remarks>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.StopContinuousMeasurements">
+            <summary>
+            Stops continuous measurements.
+            </summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.OnMeasurementCompleteEvent(Gadgeteer.Modules.Seeed.Accelerometer,Gadgeteer.Modules.Seeed.Accelerometer.Acceleration)">
+            <summary>
+            Raises the <see cref="E:Gadgeteer.Modules.Seeed.Accelerometer.MeasurementComplete"/> event.
+            </summary>
+            <param name="sender">The object that raised the event.</param>
+            <param name="acceleration">The <see cref="T:Gadgeteer.Modules.Seeed.Accelerometer.Acceleration"/> object that contains the results of the reading.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.OnThresholdExceededEvent(Gadgeteer.Modules.Seeed.Accelerometer)">
+            <summary>
+            Raises the <see cref="E:Gadgeteer.Modules.Seeed.Accelerometer.MeasurementComplete"/> event.
+            </summary>
+            <param name="sender">The object that raised the event.</param>        
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.Accelerometer.MeasurementRange">
+            <summary>
+            Sets or gets the measurement range.
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.Accelerometer.ContinuousMeasurementInterval">
+            <summary>
+            Gets or sets the interval at which continuous measurements are taken.
+            </summary>
+            <remarks>
+            The default value for this property is 100 milliseconds.
+            </remarks>
+        </member>
+        <member name="E:Gadgeteer.Modules.Seeed.Accelerometer.MeasurementComplete">
+            <summary>
+            Event raised when a measurement reading is completed.
+            </summary>
+        </member>
+        <member name="E:Gadgeteer.Modules.Seeed.Accelerometer.ThresholdExceeded">
+            <summary>
+            Event raised when an acceleration threshold is exceeded.
+            </summary>
+        </member>
+        <member name="T:Gadgeteer.Modules.Seeed.Accelerometer.Range">
+            <summary>
+            Measurement range.
+            </summary>
+        </member>
+        <member name="F:Gadgeteer.Modules.Seeed.Accelerometer.Range.EightG">
+            <summary>
+            +/- 8G measurement range
+            </summary>
+        </member>
+        <member name="F:Gadgeteer.Modules.Seeed.Accelerometer.Range.TwoG">
+            <summary>
+            +/- 2G measurement range
+            </summary>
+        </member>
+        <member name="F:Gadgeteer.Modules.Seeed.Accelerometer.Range.FourG">
+            <summary>
+            +/- 4G measurement range
+            </summary>
+        </member>
+        <member name="T:Gadgeteer.Modules.Seeed.Accelerometer.Acceleration">
+            <summary>
+            A set of acceleration readings.
+            </summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.Accelerometer.Acceleration.ToString">
+            <summary>
+            Provides a string representation of the <see cref="T:Gadgeteer.Modules.Seeed.Accelerometer.Acceleration"/> instance.
+            </summary>
+            <returns>A string describing the values contained in the object.</returns>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.Accelerometer.Acceleration.X">
+            <summary>
+            Acceleration in the X axis, in g.
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.Accelerometer.Acceleration.Y">
+            <summary>
+            Acceleration in the Y axis, in g.
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.Accelerometer.Acceleration.Z">
+            <summary>
+            Acceleration in the Z axis, in g.
+            </summary>
+        </member>
+        <member name="T:Gadgeteer.Modules.Seeed.Accelerometer.MeasurementCompleteEventHandler">
+            <summary>
+            Represents the delegate used for the <see cref="E:Gadgeteer.Modules.Seeed.Accelerometer.MeasurementComplete"/> event.
+            </summary>
+            <param name="sender">The object that raised the event.</param>
+            <param name="acceleration">The <see cref="T:Gadgeteer.Modules.Seeed.Accelerometer.Acceleration"/> object that contains the results of the reading.</param>
+        </member>
+        <member name="T:Gadgeteer.Modules.Seeed.Accelerometer.ThresholdExceededEventHandler">
+            <summary>
+            Represents the delegate used for the <see cref="E:Gadgeteer.Modules.Seeed.Accelerometer.ThresholdExceeded"/> event.
+            </summary>
+            <param name="sender">The object that raised the event.</param>
+        </member>
+    </members>
+</doc>

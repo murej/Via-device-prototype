@@ -1,0 +1,131 @@
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\le\Via prototype.exe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\be\Via prototype.exe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\le\Via prototype.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\be\Via prototype.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Via prototype.exe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Via prototype.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\le\Via prototype.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\le\Via prototype.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\be\Via prototype.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\be\Via prototype.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\Gadgeteer.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\Gadgeteer.WebClient.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\Gadgeteer.WebServer.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GHI.Premium.Net.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GHI.Premium.System.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.GHIElectronics.Extender.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.GHIElectronics.UsbClientDP.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.GHIElectronics.WiFi_RS21.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.Seeed.Accelerometer.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.Seeed.Compass.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GHI.Premium.IO.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GHI.Premium.Hardware.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\Gadgeteer.SPI.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\Gadgeteer.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\Gadgeteer.WebClient.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\Gadgeteer.WebServer.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GHI.Premium.Net.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GHI.Premium.System.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.GHIElectronics.Extender.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.GHIElectronics.UsbClientDP.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.GHIElectronics.WiFi_RS21.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.Seeed.Accelerometer.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.Seeed.Compass.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GHI.Premium.IO.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GHI.Premium.Hardware.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\Gadgeteer.SPI.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\Gadgeteer.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\Gadgeteer.WebClient.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\Gadgeteer.WebServer.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GHI.Premium.Net.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GHI.Premium.System.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.GHIElectronics.Extender.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.GHIElectronics.UsbClientDP.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.GHIElectronics.WiFi_RS21.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.Seeed.Accelerometer.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.Seeed.Compass.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GHI.Premium.IO.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GHI.Premium.Hardware.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\Gadgeteer.SPI.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\Gadgeteer.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\Gadgeteer.WebClient.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\Gadgeteer.WebServer.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GHI.Premium.Net.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GHI.Premium.System.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.GHIElectronics.Extender.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.GHIElectronics.UsbClientDP.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.GHIElectronics.WiFi_RS21.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.Seeed.Accelerometer.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.Seeed.Compass.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GHI.Premium.IO.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GHI.Premium.Hardware.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\Gadgeteer.SPI.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.WebClient.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.WebServer.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHI.Premium.Net.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.GHIElectronics.Extender.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.GHIElectronics.UsbClientDP.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.GHIElectronics.WiFi_RS21.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.Seeed.Accelerometer.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.Seeed.Compass.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHI.Premium.IO.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHI.Premium.Hardware.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.SPI.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.WebClient.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.WebClient.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.WebServer.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.WebServer.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHI.Premium.Net.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHI.Premium.System.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.GHIElectronics.Extender.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.GHIElectronics.Extender.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.GHIElectronics.UsbClientDP.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.GHIElectronics.UsbClientDP.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.GHIElectronics.WiFi_RS21.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.GHIElectronics.WiFi_RS21.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.Seeed.Accelerometer.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.Seeed.Accelerometer.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.Seeed.Compass.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.Seeed.Compass.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHI.Premium.IO.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHI.Premium.Hardware.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.SPI.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.SPI.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\ResolveAssemblyReference.cache
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\TinyCLR_DebugReferences.cache
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\Via_prototype.Resources.resources
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\GenerateResource.read.1.tlog
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\GenerateResource.write.1.tlog
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\Via_prototype.Resources.tinyresources
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\TinyResGen.cache
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\be\Via prototype.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\be\Via prototype.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\le\Via prototype.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\le\Via prototype.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\Via prototype.exe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\obj\Debug\Via prototype.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\Gadgeteer.Serial.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.Seeed.GPS.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\Gadgeteer.Serial.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.Seeed.GPS.pe
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\Gadgeteer.Serial.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\LE\GTM.Seeed.GPS.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\Gadgeteer.Serial.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\BE\GTM.Seeed.GPS.pdbx
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.Serial.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.Seeed.GPS.dll
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.Serial.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\Gadgeteer.Serial.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.Seeed.GPS.pdb
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GTM.Seeed.GPS.xml
+Z:\Documents\Projects\Via\_prototype\gadgeteer\Via prototype\bin\Debug\GHI.Premium.System.dll

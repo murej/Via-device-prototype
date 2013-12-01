@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GTM.Seeed.GPS</name>
+    </assembly>
+    <members>
+        <member name="T:Gadgeteer.Modules.Seeed.GPS">
+            <summary>
+            A GPS module for Microsoft .NET Gadgeteer
+            </summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.GPS.#ctor(System.Int32)">
+            <summary></summary>
+            <param name="socketNumber">The socket that this module is plugged in to.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.GPS.OnPositionReceived(Gadgeteer.Modules.Seeed.GPS,Gadgeteer.Modules.Seeed.GPS.Position)">
+            <summary>
+            Raises the <see cref="E:Gadgeteer.Modules.Seeed.GPS.PositionReceived"/> event.
+            </summary>
+            <param name="sender">The <see cref="T:Gadgeteer.Modules.Seeed.GPS"/> that raised the event.</param>
+            <param name="position">The position received by the GPS.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.GPS.OnNMEASentenceReceived(Gadgeteer.Modules.Seeed.GPS,System.String)">
+            <summary>
+            Raises the <see cref="E:Gadgeteer.Modules.Seeed.GPS.NMEASentenceReceived"/> event.
+            </summary>
+            <param name="sender">The <see cref="T:Gadgeteer.Modules.Seeed.GPS"/> that raised the event.</param>
+            <param name="nmeaSentence">The NMEA sentence received by the GPS.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.GPS.OnInvalidPositionReceived(Gadgeteer.Modules.Seeed.GPS)">
+            <summary>
+            Raises the <see cref="E:Gadgeteer.Modules.Seeed.GPS.InvalidPositionReceived"/> event.
+            </summary>
+            <param name="sender">The <see cref="T:Gadgeteer.Modules.Seeed.GPS"/> that raised the event.</param>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.GPS.Enabled">
+            <summary>
+            This enables or disables the GPS.  Instead of using this, you can just add and remove handlers from the PositionReceived event, which will automatically enable or disable the GPS if this property has not been manually changed.
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.GPS.LastPosition">
+            <summary>
+            The last valid position sensed.
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.GPS.LastValidPositionAge">
+            <summary>
+            The elapsed duration since <see cref="P:Gadgeteer.Modules.Seeed.GPS.LastPosition"/> was received.
+            </summary>
+        </member>
+        <member name="E:Gadgeteer.Modules.Seeed.GPS.PositionReceived">
+            <summary>
+            Triggered when a valid position is received (with a non-null Position), or when an invalid position is received after a previously valid position (with a null Position).
+            If you handle this event (and do not use the Enabled property directly) then the GPS will be automatically enabled will automatically be set true if there is at least one active handler and false otherwise.
+            </summary>
+        </member>
+        <member name="E:Gadgeteer.Modules.Seeed.GPS.NMEASentenceReceived">
+            <summary>
+            Triggered when an NMEA sentence is received.  This is for advanced users who want to parse the NMEA sentences themselves.  
+            </summary>
+        </member>
+        <member name="E:Gadgeteer.Modules.Seeed.GPS.InvalidPositionReceived">
+            <summary>
+            Triggered once when an invalid position is received for the first time (after a valid position is received).
+            </summary>
+        </member>
+        <member name="T:Gadgeteer.Modules.Seeed.GPS.Position">
+            <summary>
+            Represents a GPS position fix
+            </summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.GPS.Position.ToString">
+            <summary>
+            Provides a formatted string for this Position
+            </summary>
+            <returns>The formatted string.</returns>
+        </member>
+        <member name="M:Gadgeteer.Modules.Seeed.GPS.Position.op_Implicit(Gadgeteer.Modules.Seeed.GPS.Position)~System.String">
+            <summary>
+            Implicit conversion from Position to string
+            </summary>
+            <param name="position">The position.</param>
+            <returns>The string.</returns>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.GPS.Position.Latitude">
+            <summary>
+            The latitude
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.GPS.Position.Longitude">
+            <summary>
+            The longitude
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.GPS.Position.LatitudeString">
+            <summary>
+            A string representing the latitude, in the format ddmm.mmmm H, where dd = degrees, mm.mmm = minutes and fractional minutes, and H = hemisphere (N/S)
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.GPS.Position.LongitudeString">
+            <summary>
+            A string representing the longitude, in the format ddmm.mmmm H, where dd = degrees, mm.mmm = minutes and fractional minutes, and H = hemisphere (E/W)
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.GPS.Position.SpeedKnots">
+            <summary>
+            Speed over the ground in knots
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.GPS.Position.CourseDegrees">
+            <summary>
+            Course over the ground in degrees 
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.Seeed.GPS.Position.FixTimeUtc">
+            <summary>
+            The Universal Coordinated Time (UTC) time of the fix
+            </summary>
+        </member>
+        <member name="T:Gadgeteer.Modules.Seeed.GPS.PositionReceivedHandler">
+            <summary>
+            Represents the delegate that is used to handle the <see cref="E:Gadgeteer.Modules.Seeed.GPS.PositionReceived"/> event
+            </summary>
+            <param name="sender">The <see cref="T:Gadgeteer.Modules.Seeed.GPS"/> object that raised the event.</param>
+            <param name="position">The position received</param>
+        </member>
+        <member name="T:Gadgeteer.Modules.Seeed.GPS.NMEASentenceReceivedHandler">
+            <summary>
+            Represents the delegate that is used to handle the <see cref="E:Gadgeteer.Modules.Seeed.GPS.NMEASentenceReceived"/> event
+            </summary>
+            <param name="sender">The <see cref="T:Gadgeteer.Modules.Seeed.GPS"/> object that raised the event.</param>
+            <param name="nmeaSentence">The NMEA sentence received</param>
+        </member>
+        <member name="T:Gadgeteer.Modules.Seeed.GPS.InvalidPositionReceivedHandler">
+            <summary>
+            Represents the delegate that is used to handle the <see cref="E:Gadgeteer.Modules.Seeed.GPS.InvalidPositionReceived"/> event
+            </summary>
+            <param name="sender">The <see cref="T:Gadgeteer.Modules.Seeed.GPS"/> object that raised the event.</param>
+        </member>
+    </members>
+</doc>
